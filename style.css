@@ -1,0 +1,110 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=League+Spartan:wght@700&family=Lexend+Deca:wght@400;700&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+ 
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+ }
+ body{
+    background-color:hsl(0, 0%, 94%);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+ }
+ .container{
+     /* width:40%; */
+     /* height:80%; */
+     background-color:hsl(0, 0%, 100%);
+     border-radius:20px;
+     border-bottom-right-radius: 30%;
+ }
+.date{
+   display:flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin:3em;/* 50px */
+   margin-bottom:0
+}
+.dates{
+   /* margin-bottom: 50px; */
+   width:6em;
+   margin-right:3em;
+   color:hsl(0, 1%, 44%);
+   letter-spacing: 3px;
+}
+.dates h4{
+   
+   font-weight: 400;
+}
+.date-box{
+   width:4.5em;
+   margin-top:0.3em;
+   margin-right:0.8em;
+   padding:10px 10px ;
+   border:0;
+   font-size:1.5em;
+   font-weight: 800;
+   border:none;
+   outline: 1px solid hsl(0, 0%, 86%);
+   border-radius:10px;
+}
+/* input:invalid {
+   outline: 1px solid hsl(0, 100%, 67%);
+}
+.h1:invalid{
+   color:hsl(0, 100%, 67%);
+} */
+input {
+   width: 100%;
+   padding: 15px;
+   border-radius: 10px;
+   border: none;
+   outline: 1px solid hsl(0, 0%, 86%);;
+   font-size: 1.5em;
+   font-family: 'Poppins-Bold', sans-serif;
+}
+.date-box:hover, .date-box:active{
+   border:1px solid hsl(259, 100%, 65%);
+}
+.btn hr {
+   width: 70%;
+   height: 1px;
+   border: none;
+   background-color: hsl(0, 0%, 86%);
+   margin-left:3.5em;
+}
+.btn {
+   display: flex;
+   align-items: center;
+   
+   
+}
+.btn button {
+   padding: 15px;
+   border-radius: 50%;
+   border: none;
+   background-color: hsl(259, 100%, 65%);
+}
+
+.btn button:hover {
+   background-color: hsl(0, 0%, 8%);
+   cursor: pointer;
+}
+.display {
+   font-size: 1.8rem;
+   margin-left:1.8em;
+}
+
+.display h1, span {
+   font-family: 'Poppins';
+   font-weight:bolder;
+   font-style: italic;
+}
+
+.display h1 span {
+   color: hsl(259, 100%, 65%);
+}
